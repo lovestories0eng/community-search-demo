@@ -1,0 +1,1029 @@
+[
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "OO-B_4ABRU58nyXGLbQb",
+        "_score" : 21.563549,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Spatially-sensitive affine-invariant image descriptors",
+            "doi" : "10.1007/978-3-642-15552-9_15",
+            "authors" : [
+              {
+                "name" : "Alexander M. Bronstein",
+                "_id" : "548f8fc8dabfaef989f09a19",
+                "org" : "BBK Technologies ltd. and Dept. of Electrical Engineering, Tel Aviv University",
+                "gid" : "5b86ace1e1cd8e14a30749c5",
+                "orgid" : "5f71b28d1c455f439fe3ca38"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "BBK Technologies ltd. and Dept. of Computer Science, Technion - Israel Institute of Technology",
+                "gid" : "5b86c54ee1cd8e14a3b541bf",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "3-642-15551-0",
+            "n_citation" : 29,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a727c520f7420be8b9ba3d",
+              "type" : 0,
+              "raw" : "ECCV (2)",
+              "name_d" : "European Conference on Computer Vision"
+            },
+            "abstract" : "Invariant image descriptors play an important role in many computer vision and pattern recognition problems such as image search and retrieval. A dominant paradigm today is that of \"bags of features\", a representation of images as distributions of primitive visual elements. The main disadvantage of this approach is the loss of spatial relations between features, which often carry important information about the image. In this paper, we show how to construct spatially-sensitive image descriptors in which both the features and their relation are affineinvariant. Our construction is based on a vocabulary of pairs of features coupled with a vocabulary of invariant spatial relations between the features. Experimental results show the advantage of our approach in image retrieval applications.",
+            "issn" : "",
+            "pdf" : null,
+            "keywords" : [
+              "spatially-sensitive affine-invariant image descriptors",
+              "dominant paradigm",
+              "important role",
+              "computer vision",
+              "image search",
+              "spatially-sensitive image descriptors",
+              "invariant image descriptors",
+              "invariant spatial relation",
+              "spatial relation",
+              "image retrieval application",
+              "important information",
+              "image retrieval",
+              "pattern recognition"
+            ],
+            "page_end" : "208",
+            "year" : 2010,
+            "_id" : "53e9baadb7602d97046de59c",
+            "fos" : [
+              "Spatial relation",
+              "Computer vision",
+              "Automatic image annotation",
+              "Feature detection (computer vision)",
+              "Pattern recognition",
+              "Image texture",
+              "Image retrieval",
+              "Artificial intelligence",
+              "Invariant (mathematics)",
+              "Vocabulary",
+              "Mathematics",
+              "Visual Word"
+            ],
+            "page_start" : "197",
+            "url" : [
+              "http://dx.doi.org/10.1007/978-3-642-15552-9_15"
+            ],
+            "references" : [
+              "53e99b86b7602d970242db15",
+              "53e9a1a2b7602d9702a9815c",
+              "53e9bad0b7602d97046fdb05",
+              "558abfcf84ae84d265bf69bc",
+              "53e9b641b7602d970419b955",
+              "53e9a089b7602d9702970d4f",
+              "558c5e72e4b02b9f07a6b5a8",
+              "558a50cce4b037c087566773",
+              "53e9b4b9b7602d9703fd0d6b",
+              "53e9b240b7602d9703cdbc4d",
+              "53e9ba94b7602d97046b9e43",
+              "53e9bccbb7602d97049535c2",
+              "53e99be3b7602d970248efc8",
+              "53e9b9cdb7602d97045c2591",
+              "558ae428e4b0b32fcb397dc5",
+              "53e9b90ab7602d97044ef1d7",
+              "558aaef0e4b031bae1f91052",
+              "53e99c43b7602d97024f09da",
+              "53e9a357b7602d9702c633aa",
+              "53e9a893b7602d97031df66f",
+              "53e9b6c4b7602d970424b109",
+              "53e9b82fb7602d97043ebda2",
+              "53e9986eb7602d97020ab93b",
+              "53e9aee4b7602d970390f05e",
+              "53e9b556b7602d970408cfad",
+              "53e9a06db7602d9702955dc7"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:34:57.279Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "h7Rw_4ABRU58nyXGdSO4",
+        "_score" : 21.563549,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Regularized Partial Matching of Rigid Shapes",
+            "doi" : "10.1007/978-3-540-88688-4_11",
+            "authors" : [
+              {
+                "name" : "Alexander M. Bronstein",
+                "_id" : "548f8fc8dabfaef989f09a19",
+                "org" : "Technion --- Israel Institute of Technology, Haifa, Israel 32000",
+                "gid" : "5b86a9cae1cd8e14a3f3571e",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "Technion --- Israel Institute of Technology, Haifa, Israel 32000",
+                "gid" : "5b86a9cae1cd8e14a3f3571e",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "",
+            "n_citation" : 26,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a727c520f7420be8b9ba3d",
+              "type" : 0,
+              "raw" : "ECCV (2)",
+              "name_d" : "European Conference on Computer Vision"
+            },
+            "abstract" : "Matching of rigid shapes is an important problem in numerous applications across the boundary of computer vision, pattern recognition and computer graphics communities. A particularly challenging setting of this problem is partial matching, where the two shapes are dissimilar in general, but have significant similar parts. In this paper, we show a rigorous approach allowing to find matching parts of rigid shapes with controllable size and regularity. The regularity term we use is similar to the spirit of the Mumford-Shah functional, extended to non-Euclidean spaces. Numerical experiments show that the regularized partial matching produces better results compared to the non-regularized one.",
+            "issn" : "",
+            "pdf" : null,
+            "keywords" : [
+              "controllable size",
+              "partial matching",
+              "important problem",
+              "rigid shape",
+              "better result",
+              "computer vision",
+              "rigid shapes",
+              "significant similar part",
+              "regularized partial matching",
+              "computer graphics community",
+              "regularity term",
+              "euclidean space",
+              "pattern recognition"
+            ],
+            "page_end" : "154",
+            "year" : 2008,
+            "_id" : "53e9ac54b7602d9703622155",
+            "fos" : [
+              "Computer vision",
+              "Boundary length",
+              "Rigid motion",
+              "Partial match",
+              "Hausdorff distance",
+              "Artificial intelligence",
+              "Computer graphics",
+              "Mathematics"
+            ],
+            "page_start" : "143",
+            "url" : [
+              "http://dx.doi.org/10.1007/978-3-540-88688-4_11"
+            ],
+            "references" : [
+              "599c7f08601a182cd28e584c",
+              "53e9a938b7602d970328c802",
+              "53e9b010b7602d9703a68975",
+              "53e99f11b7602d97027ddabb",
+              "53e9ab25b7602d97034aff28",
+              "558a5599e4b031bae1f703d7",
+              "53e99813b7602d970202e9bf",
+              "558ab62ee4b031bae1f93947",
+              "53e9b2ffb7602d9703dc195f",
+              "53e9aa61b7602d97033d4707",
+              "53e99b21b7602d97023b4b58",
+              "53e9b6f3b7602d9704285c47",
+              "53e9ab69b7602d970350ad04"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:16:41.648Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "3fmE_4ABRU58nyXGQvBO",
+        "_score" : 21.563549,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Not only size matters: Regularized partial matching of nonrigid shapes",
+            "doi" : "10.1109/CVPRW.2008.4563077",
+            "authors" : [
+              {
+                "org" : "Dept. of Comput. Sci., Technion - Israel Inst. of Technol., Haifa|c|",
+                "gid" : "5b869402e1cd8e14a3630522",
+                "name" : "Alexander M. Bronstein",
+                "_id" : "562fb06a45cedb3399784299",
+                "orgid" : "5f71b28d1c455f439fe3ca3c",
+                "email" : "bron@cs.technion.ac.il"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "Department of Computer Science|Technion - Israel Institute of Technology",
+                "orgid" : "5f71b28d1c455f439fe3ca3c",
+                "email" : "mbron@cs.technion.ac.il"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "978-1-4244-2340-8",
+            "n_citation" : 21,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a7256420f7420be8b4e0aa",
+              "type" : 1,
+              "raw" : "computer vision and pattern recognition"
+            },
+            "abstract" : "Partial matching is probably one of the most challenging problems in nonrigid shape analysis. The problem consists of matching similar parts of shapes that are dissimilar on the whole and can assume different forms by undergoing nonrigid deformations. Conceptually, two shapes can be considered partially matching if they have significant simi- lar parts, with the simplest definition of significance being the size of the parts. Thus, partial matching can be defined as a multcriterion optimization problem trying to simultane- ously maximize the similarity and the size of these parts. In this paper, we propose a different definition of significance, taking into account the regularity of parts besides their size. The regularity term proposed here is similar to the spirit of the Mumford-Shah functional. Numerical experiments show that the regularized partial matching produces semantically better results compared to the non-regularized one.",
+            "issn" : "2160-7508 E-ISBN : 978-1-4244-2340-8",
+            "pdf" : null,
+            "keywords" : [
+              "image matching",
+              "optimisation",
+              "mumford-shah functional",
+              "multicriterion optimization problem",
+              "nonrigid shape analysis",
+              "nonrigid shapes matching",
+              "regularized partial matching"
+            ],
+            "page_end" : "6",
+            "year" : 2008,
+            "_id" : "558afef9e4b0b32fcb3a1fef",
+            "fos" : [
+              "Mumford–Shah functional",
+              "Computer vision",
+              "Distance measurement",
+              "Image matching",
+              "Visualization",
+              "Algorithm",
+              "Minification",
+              "Artificial intelligence",
+              "Optimization problem",
+              "Mathematics",
+              "Shape analysis (digital geometry)"
+            ],
+            "page_start" : "1",
+            "url" : [
+              "http://dx.doi.org/10.1109/CVPRW.2008.4563077",
+              "http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?tp=&arnumber=4563077",
+              "http://doi.ieeecomputersociety.org/10.1109/CVPRW.2008.4563077"
+            ],
+            "references" : [
+              "599c7f08601a182cd28e584c",
+              "558c07e5e4b02b9f07a4ad39",
+              "53e9b029b7602d9703a84c37",
+              "558a5599e4b031bae1f703d7",
+              "53e9ab25b7602d97034aff28",
+              "53e99b21b7602d97023b4b58",
+              "53e9b6f3b7602d9704285c47",
+              "53e9a91ab7602d9703269ebc"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:38:19.445Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "0_-F_4ABRU58nyXGX0qi",
+        "_score" : 21.563549,
+        "_source" : {
+          "document" : {
+            "title" : "Manifold Intrinsic Similarity",
+            "doi" : "10.1007/978-0-387-92920-0_32",
+            "authors" : [
+              {
+                "name" : "Alexander M. Bronstein",
+                "_id" : "548f8fc8dabfaef989f09a19",
+                "org" : "technion israel institute of technology",
+                "gid" : "5b86c1c3e1cd8e14a39c1154",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "technion israel institute of technology",
+                "gid" : "5b86c1c3e1cd8e14a39c1154",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "",
+            "n_citation" : 2,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "5736aaf8d39c4f40a79484b7",
+              "raw" : "Handbook of Mathematical Methods in Imaging",
+              "type" : 12,
+              "publisher" : null,
+              "raw_zh" : null
+            },
+            "abstract" : "",
+            "issn" : "",
+            "pdf" : null,
+            "keywords" : [ ],
+            "page_end" : "",
+            "year" : 2015,
+            "_id" : "573695436e3b12023e471405",
+            "fos" : [
+              "Computer science",
+              "Pure mathematics",
+              "Instrumental and intrinsic value",
+              "Manifold"
+            ],
+            "page_start" : "",
+            "url" : [
+              "http://dx.doi.org/10.1007/978-0-387-92920-0_32",
+              "http://dx.doi.org/10.1007/978-1-4939-0790-8_57"
+            ],
+            "references" : [
+              "53e9a0adb7602d970299677d",
+              "557e85f7d19faf961d16a570",
+              "53e9a938b7602d970328c802",
+              "53e9ae11b7602d970382112a",
+              "53e9bd38b7602d97049c4d50",
+              "5c8618474895d9cbc618cea5",
+              "53e9b8d4b7602d97044b4572",
+              "53e9b822b7602d97043d8f02",
+              "558a386ae4b031bae1f65a2f",
+              "53e99813b7602d970202e9bf",
+              "53e99809b7602d970201eeba",
+              "53e9a2ceb7602d9702bd9671",
+              "53e9a540b7602d9702e658ab",
+              "53e9be21b7602d9704adbbf0",
+              "53e9ac05b7602d97035c5aea",
+              "53e99eafb7602d970277a572",
+              "573696786e3b12023e584485",
+              "53e9b861b7602d970442aa52",
+              "53e9b437b7602d9703f2fb83",
+              "558b412c84ae84d265c25ac7",
+              "53e9abd4b7602d9703588a24",
+              "53e9b9b4b7602d97045a4589",
+              "53e9a1dbb7602d9702adba8c",
+              "53e9bb52b7602d970479023f",
+              "53e9ac75b7602d9703647205",
+              "53e9af87b7602d97039cd28a",
+              "558a45e684ae84d265bc9efa",
+              "558c06e3e4b0cfb70a1b341d",
+              "53e9a645b7602d9702f75ad1",
+              "53e9aa61b7602d97033d4707",
+              "53e9a357b7602d9702c633aa",
+              "53e9ac6ab7602d970363cfd0",
+              "558a8d0ae4b0b32fcb377cd0",
+              "53e9b82fb7602d97043ebda2",
+              "53e9a495b7602d9702db45f9",
+              "53e9986eb7602d97020ab93b",
+              "558c9331e4b00c3c48e30fb1",
+              "53e9ba8ab7602d97046aed5a",
+              "53e9b556b7602d970408cfad",
+              "53e9ac6ab7602d970363df94",
+              "53e99b2cb7602d97023c687e",
+              "558aee6fe4b0b32fcb39bc89",
+              "53e9981db7602d9702039791",
+              "53e9bc21b7602d970488cbe0",
+              "53e9ac54b7602d9703622155",
+              "53e99e93b7602d9702759041",
+              "53e9aab0b7602d970342c150",
+              "53e9b6dcb7602d970426f08f",
+              "53e9a455b7602d9702d7031c",
+              "53e9b641b7602d970419b955",
+              "53e99f48b7602d9702816389",
+              "53e9981db7602d9702039c0d",
+              "53e9a9e6b7602d970334c773",
+              "53e998b8b7602d97020f2ae9",
+              "558afef9e4b0b32fcb3a1fef",
+              "558c5e72e4b02b9f07a6b5a8",
+              "53e9ac70b7602d9703644a3c",
+              "5b65d5f0ab2dfb4592088ccf",
+              "53e9acf6b7602d97036d2409",
+              "53e9b8cdb7602d97044adc59",
+              "53e99838b7602d9702062287",
+              "53e9b290b7602d9703d374c5",
+              "558afefbe4b0b32fcb3a1ffc",
+              "53e9a95db7602d97032b5715",
+              "53e99e21b7602d97026e2229",
+              "53e9a3e0b7602d9702cf352d",
+              "53e99c29b7602d97024d513b",
+              "53e9b5bcb7602d9704101c75",
+              "53e9b338b7602d9703e0c049",
+              "53e9be72b7602d9704b35049",
+              "53e99ad7b7602d970235a2f0",
+              "53e9b2ffb7602d9703dc195f",
+              "53e99d74b7602d9702630723",
+              "53e99d74b7602d970262f3d3",
+              "53e9ba11b7602d970461294f",
+              "53e9b63ab7602d97041963a4",
+              "53e9a80cb7602d9703151596",
+              "53e9a841b7602d970318c183",
+              "53e9b6fab7602d970428cd76",
+              "53e9aa56b7602d97033c596f"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:39:29.175Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "kfyE_4ABRU58nyXGqQE4",
+        "_score" : 21.563549,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Shape Recognition with Spectral Distances",
+            "doi" : "10.1109/TPAMI.2010.210",
+            "authors" : [
+              {
+                "name" : "Michael M Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "Fac. of Inf., Univ. delta Svizzera Italiana, Lugano, Switzerland|c|",
+                "gid" : "5b869855e1cd8e14a37f711c",
+                "orgid" : "5f71b2811c455f439fe3c5b7"
+              },
+              {
+                "name" : "Alexander M Bronstein",
+                "_id" : "5631b47345cedb3399eecd69",
+                "org" : "Tel-Aviv University, Tel-Aviv",
+                "orgid" : "5f71b28d1c455f439fe3ca38"
+              }
+            ],
+            "volume" : "33",
+            "isbn" : "",
+            "n_citation" : 155,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "55f95827c35f4fb0d21ce234",
+              "type" : 1,
+              "raw" : "Pattern Analysis and Machine Intelligence, IEEE Transactions",
+              "raw_zh" : ""
+            },
+            "abstract" : "Recent works have shown the use of diffusion geometry for various pattern recognition applications, including nonrigid shape analysis. In this paper, we introduce spectral shape distance as a general framework for distribution-based shape similarity and show that two recent methods for shape similarity due to Rustamov and Mahmoudi and Sapiro are particular cases thereof.",
+            "issn" : "0162-8828",
+            "pdf" : "",
+            "keywords" : [
+              "geometry",
+              "shape recognition",
+              "diffusion geometry",
+              "distribution-based shape similarity",
+              "nonrigid shape analysis",
+              "pattern recognition",
+              "shape recognition",
+              "spectral shape distance",
+              "Diffusion distance",
+              "Laplace-Beltrami operator",
+              "commute time",
+              "distribution",
+              "eigenmap",
+              "global point signature",
+              "heat kernel",
+              "nonrigid shapes",
+              "similarity.",
+              "spectral distance"
+            ],
+            "page_end" : "1071",
+            "year" : 2010,
+            "_id" : "558c9331e4b00c3c48e30fb1",
+            "fos" : [
+              "Kernel (linear algebra)",
+              "Active shape model",
+              "Pattern recognition",
+              "Heat kernel",
+              "Topological skeleton",
+              "Artificial intelligence",
+              "Geometry",
+              "Spectral shape analysis",
+              "Mathematics",
+              "Heat kernel signature",
+              "Shape analysis (digital geometry)",
+              "Cognitive neuroscience of visual object recognition"
+            ],
+            "page_start" : "1065",
+            "url" : [
+              "http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?tp=&arnumber=5661779",
+              "http://dx.doi.org/10.1109/TPAMI.2010.210",
+              "http://doi.ieeecomputersociety.org/10.1109/TPAMI.2010.210",
+              "http://www.ncbi.nlm.nih.gov/pubmed/21135442?report=xml&format=text",
+              "https://dl.acm.org/citation.cfm?id=1963100"
+            ],
+            "references" : [
+              "53e9b8e8b7602d97044c8c38",
+              "53e9b304b7602d9703dc8e43",
+              "53e99e21b7602d97026e2229",
+              "53e9a3e0b7602d9702cf352d",
+              "53e99e93b7602d9702759041",
+              "53e9ac75b7602d9703647205",
+              "53e99eaeb7602d9702778153",
+              "53e9a7f8b7602d970313c72b",
+              "558c06e3e4b0cfb70a1b341d",
+              "53e9aa74b7602d97033ec46d",
+              "53e9a906b7602d97032597cd",
+              "558c5e72e4b02b9f07a6b5a8",
+              "53e9b409b7602d9703efbd04",
+              "53e9ab73b7602d9703519176",
+              "53e9be21b7602d9704adbbf0",
+              "5b65d5f0ab2dfb4592088ccf",
+              "53e99eafb7602d970277a572",
+              "558c5e71e4b02b9f07a6b5a1"
+            ],
+            "issue" : "5"
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:38:45.492Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "e8x3_4ABRU58nyXGp6V1",
+        "_score" : 21.563549,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Not only size matters: Regularized partial matching of nonrigid shapes",
+            "doi" : "10.1109/CVPRW.2008.4563077",
+            "authors" : [
+              {
+                "org" : "Dept. of Comput. Sci., Technion - Israel Inst. of Technol., Haifa|c|",
+                "gid" : "5b869402e1cd8e14a3630522",
+                "name" : "Alexander M. Bronstein",
+                "_id" : "562fb06a45cedb3399784299",
+                "orgid" : "5f71b28d1c455f439fe3ca3c",
+                "email" : "bron@cs.technion.ac.il"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "Department of Computer Science|Technion - Israel Institute of Technology",
+                "orgid" : "5f71b28d1c455f439fe3ca3c",
+                "email" : "mbron@cs.technion.ac.il"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "978-1-4244-2340-8",
+            "n_citation" : 21,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a7256420f7420be8b4e0aa",
+              "type" : 1,
+              "raw" : "computer vision and pattern recognition"
+            },
+            "abstract" : "Partial matching is probably one of the most challenging problems in nonrigid shape analysis. The problem consists of matching similar parts of shapes that are dissimilar on the whole and can assume different forms by undergoing nonrigid deformations. Conceptually, two shapes can be considered partially matching if they have significant simi- lar parts, with the simplest definition of significance being the size of the parts. Thus, partial matching can be defined as a multcriterion optimization problem trying to simultane- ously maximize the similarity and the size of these parts. In this paper, we propose a different definition of significance, taking into account the regularity of parts besides their size. The regularity term proposed here is similar to the spirit of the Mumford-Shah functional. Numerical experiments show that the regularized partial matching produces semantically better results compared to the non-regularized one.",
+            "issn" : "2160-7508 E-ISBN : 978-1-4244-2340-8",
+            "pdf" : null,
+            "keywords" : [
+              "image matching",
+              "optimisation",
+              "mumford-shah functional",
+              "multicriterion optimization problem",
+              "nonrigid shape analysis",
+              "nonrigid shapes matching",
+              "regularized partial matching"
+            ],
+            "page_end" : "6",
+            "year" : 2008,
+            "_id" : "558afef9e4b0b32fcb3a1fef",
+            "fos" : [
+              "Mumford–Shah functional",
+              "Computer vision",
+              "Distance measurement",
+              "Image matching",
+              "Visualization",
+              "Algorithm",
+              "Minification",
+              "Artificial intelligence",
+              "Optimization problem",
+              "Mathematics",
+              "Shape analysis (digital geometry)"
+            ],
+            "page_start" : "1",
+            "url" : [
+              "http://dx.doi.org/10.1109/CVPRW.2008.4563077",
+              "http://ieeexplore.ieee.org/xpl/abstractAuthors.jsp?tp=&arnumber=4563077",
+              "http://doi.ieeecomputersociety.org/10.1109/CVPRW.2008.4563077"
+            ],
+            "references" : [
+              "599c7f08601a182cd28e584c",
+              "558c07e5e4b02b9f07a4ad39",
+              "53e9b029b7602d9703a84c37",
+              "558a5599e4b031bae1f703d7",
+              "53e9ab25b7602d97034aff28",
+              "53e99b21b7602d97023b4b58",
+              "53e9b6f3b7602d9704285c47",
+              "53e9a91ab7602d9703269ebc"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:24:32.548Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "JMJ0_4ABRU58nyXGHmTW",
+        "_score" : 21.563549,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Spatially-sensitive affine-invariant image descriptors",
+            "doi" : "10.1007/978-3-642-15552-9_15",
+            "authors" : [
+              {
+                "name" : "Alexander M. Bronstein",
+                "_id" : "548f8fc8dabfaef989f09a19",
+                "org" : "BBK Technologies ltd. and Dept. of Electrical Engineering, Tel Aviv University",
+                "gid" : "5b86ace1e1cd8e14a30749c5",
+                "orgid" : "5f71b28d1c455f439fe3ca38"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "BBK Technologies ltd. and Dept. of Computer Science, Technion - Israel Institute of Technology",
+                "gid" : "5b86c54ee1cd8e14a3b541bf",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "3-642-15551-0",
+            "n_citation" : 29,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a727c520f7420be8b9ba3d",
+              "type" : 0,
+              "raw" : "ECCV (2)",
+              "name_d" : "European Conference on Computer Vision"
+            },
+            "abstract" : "Invariant image descriptors play an important role in many computer vision and pattern recognition problems such as image search and retrieval. A dominant paradigm today is that of \"bags of features\", a representation of images as distributions of primitive visual elements. The main disadvantage of this approach is the loss of spatial relations between features, which often carry important information about the image. In this paper, we show how to construct spatially-sensitive image descriptors in which both the features and their relation are affineinvariant. Our construction is based on a vocabulary of pairs of features coupled with a vocabulary of invariant spatial relations between the features. Experimental results show the advantage of our approach in image retrieval applications.",
+            "issn" : "",
+            "pdf" : null,
+            "keywords" : [
+              "spatially-sensitive affine-invariant image descriptors",
+              "dominant paradigm",
+              "important role",
+              "computer vision",
+              "image search",
+              "spatially-sensitive image descriptors",
+              "invariant image descriptors",
+              "invariant spatial relation",
+              "spatial relation",
+              "image retrieval application",
+              "important information",
+              "image retrieval",
+              "pattern recognition"
+            ],
+            "page_end" : "208",
+            "year" : 2010,
+            "_id" : "53e9baadb7602d97046de59c",
+            "fos" : [
+              "Spatial relation",
+              "Computer vision",
+              "Automatic image annotation",
+              "Feature detection (computer vision)",
+              "Pattern recognition",
+              "Image texture",
+              "Image retrieval",
+              "Artificial intelligence",
+              "Invariant (mathematics)",
+              "Vocabulary",
+              "Mathematics",
+              "Visual Word"
+            ],
+            "page_start" : "197",
+            "url" : [
+              "http://dx.doi.org/10.1007/978-3-642-15552-9_15"
+            ],
+            "references" : [
+              "53e99b86b7602d970242db15",
+              "53e9a1a2b7602d9702a9815c",
+              "53e9bad0b7602d97046fdb05",
+              "558abfcf84ae84d265bf69bc",
+              "53e9b641b7602d970419b955",
+              "53e9a089b7602d9702970d4f",
+              "558c5e72e4b02b9f07a6b5a8",
+              "558a50cce4b037c087566773",
+              "53e9b4b9b7602d9703fd0d6b",
+              "53e9b240b7602d9703cdbc4d",
+              "53e9ba94b7602d97046b9e43",
+              "53e9bccbb7602d97049535c2",
+              "53e99be3b7602d970248efc8",
+              "53e9b9cdb7602d97045c2591",
+              "558ae428e4b0b32fcb397dc5",
+              "53e9b90ab7602d97044ef1d7",
+              "558aaef0e4b031bae1f91052",
+              "53e99c43b7602d97024f09da",
+              "53e9a357b7602d9702c633aa",
+              "53e9a893b7602d97031df66f",
+              "53e9b6c4b7602d970424b109",
+              "53e9b82fb7602d97043ebda2",
+              "53e9986eb7602d97020ab93b",
+              "53e9aee4b7602d970390f05e",
+              "53e9b556b7602d970408cfad",
+              "53e9a06db7602d9702955dc7"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:20:41.752Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "EOF9_4ABRU58nyXGXnI0",
+        "_score" : 21.563549,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Regularized Partial Matching of Rigid Shapes",
+            "doi" : "10.1007/978-3-540-88688-4_11",
+            "authors" : [
+              {
+                "name" : "Alexander M. Bronstein",
+                "_id" : "548f8fc8dabfaef989f09a19",
+                "org" : "Technion --- Israel Institute of Technology, Haifa, Israel 32000",
+                "gid" : "5b86a9cae1cd8e14a3f3571e",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "Technion --- Israel Institute of Technology, Haifa, Israel 32000",
+                "gid" : "5b86a9cae1cd8e14a3f3571e",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "",
+            "n_citation" : 26,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a727c520f7420be8b9ba3d",
+              "type" : 0,
+              "raw" : "ECCV (2)",
+              "name_d" : "European Conference on Computer Vision"
+            },
+            "abstract" : "Matching of rigid shapes is an important problem in numerous applications across the boundary of computer vision, pattern recognition and computer graphics communities. A particularly challenging setting of this problem is partial matching, where the two shapes are dissimilar in general, but have significant similar parts. In this paper, we show a rigorous approach allowing to find matching parts of rigid shapes with controllable size and regularity. The regularity term we use is similar to the spirit of the Mumford-Shah functional, extended to non-Euclidean spaces. Numerical experiments show that the regularized partial matching produces better results compared to the non-regularized one.",
+            "issn" : "",
+            "pdf" : null,
+            "keywords" : [
+              "controllable size",
+              "partial matching",
+              "important problem",
+              "rigid shape",
+              "better result",
+              "computer vision",
+              "rigid shapes",
+              "significant similar part",
+              "regularized partial matching",
+              "computer graphics community",
+              "regularity term",
+              "euclidean space",
+              "pattern recognition"
+            ],
+            "page_end" : "154",
+            "year" : 2008,
+            "_id" : "53e9ac54b7602d9703622155",
+            "fos" : [
+              "Computer vision",
+              "Boundary length",
+              "Rigid motion",
+              "Partial match",
+              "Hausdorff distance",
+              "Artificial intelligence",
+              "Computer graphics",
+              "Mathematics"
+            ],
+            "page_start" : "143",
+            "url" : [
+              "http://dx.doi.org/10.1007/978-3-540-88688-4_11"
+            ],
+            "references" : [
+              "599c7f08601a182cd28e584c",
+              "53e9a938b7602d970328c802",
+              "53e9b010b7602d9703a68975",
+              "53e99f11b7602d97027ddabb",
+              "53e9ab25b7602d97034aff28",
+              "558a5599e4b031bae1f703d7",
+              "53e99813b7602d970202e9bf",
+              "558ab62ee4b031bae1f93947",
+              "53e9b2ffb7602d9703dc195f",
+              "53e9aa61b7602d97033d4707",
+              "53e99b21b7602d97023b4b58",
+              "53e9b6f3b7602d9704285c47",
+              "53e9ab69b7602d970350ad04"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:30:47.773Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "re-B_4ABRU58nyXGPvx-",
+        "_score" : 21.163364,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "Blind Deconvolution Using the Relative Newton Method",
+            "doi" : "10.1007/978-3-540-30110-3_71",
+            "authors" : [
+              {
+                "org" : "Department of Electrical Engineering, Technion – Israel Institute of Technology, 32000 Haifa, Israel",
+                "gid" : "5b86a6f0e1cd8e14a3e09103",
+                "name" : "Alexander M. Bronstein",
+                "_id" : "548f8fc8dabfaef989f09a19",
+                "orgid" : "5f71b28d1c455f439fe3ca3c",
+                "email" : "alexbron@ieee.org"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "Department of Electrical Engineering, Technion – Israel Institute of Technology, 32000 Haifa, Israel",
+                "gid" : "5b86a6f0e1cd8e14a3e09103",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              },
+              {
+                "org" : "Department of Electrical Engineering, Technion – Israel Institute of Technology, 32000 Haifa, Israel",
+                "gid" : "5b86a6f0e1cd8e14a3e09103",
+                "name" : "Michael Zibulevsky",
+                "_id" : "53f47a6edabfaeb22f56d969",
+                "orgid" : "5f71b28d1c455f439fe3ca3c",
+                "email" : "mzib@ee.technion.ac.il"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "",
+            "n_citation" : 2,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a725fd20f7420be8b61fb6",
+              "type" : 0,
+              "raw" : "ICA",
+              "name_d" : "International Conference on Independent Component Analysis and Signal Separation"
+            },
+            "abstract" : "We propose a relative optimization framework for quasi maximum likelihood blind deconvolution and the relative Newton method as its particular instance. Special Hessian structure allows its fast approximate construction and inversion with complexity comparable to that of gradient methods. The use of rational IIR restoration kernels provides a richer family of filters than the tradi- tionally used FIR kernels. Smoothed absolute value and the smoothed deadzone functions allow accurate and robust deconvolution of super- and sub-Gaussian sources, respectively. Simulation results demonstrate the efficiency of the pro- posed methods.",
+            "issn" : "",
+            "pdf" : "//static.aminer.org/pdf/PDF/000/263/816/blind_deconvolution_using_the_relative_newton_method.pdf",
+            "keywords" : [
+              "kernel smoothing",
+              "gradient method",
+              "quasi maximum likelihood",
+              "blind deconvolution",
+              "newton method"
+            ],
+            "page_end" : "561",
+            "year" : 2004,
+            "_id" : "53e9bafbb7602d970473352c",
+            "fos" : [
+              "Gradient method",
+              "Mathematical optimization",
+              "Blind deconvolution",
+              "Infinite impulse response",
+              "Hessian matrix",
+              "Deconvolution",
+              "Algorithm",
+              "Independent component analysis",
+              "Blind signal separation",
+              "Mathematics",
+              "Newton's method"
+            ],
+            "page_start" : "554",
+            "url" : [
+              "http://dx.doi.org/10.1007/978-3-540-30110-3_71"
+            ],
+            "references" : [
+              "558374500cf2320d1b998292",
+              "557f176c6fee0fe990caeb4c",
+              "53e997d7b7602d9701fcc003",
+              "53e99f19b7602d97027e52f5",
+              "53e9a95eb7602d97032b902a",
+              "53e99a30b7602d970228ed68",
+              "53e99f69b7602d970283af2d",
+              "558a364b84ae84d265bc42c3",
+              "53e9ad63b7602d97037497b0",
+              "53e99ca1b7602d97025544a6",
+              "53e9abbeb7602d970356ee1f"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:35:01.764Z"
+        }
+      },
+      {
+        "_index" : "new_dblp",
+        "_type" : "_doc",
+        "_id" : "JrVw_4ABRU58nyXG1KLu",
+        "_score" : 21.163364,
+        "_ignored" : [
+          "document.abstract.keyword"
+        ],
+        "_source" : {
+          "document" : {
+            "title" : "On separation of semitransparent dynamic images from static background",
+            "doi" : "10.1007/11679363_116",
+            "authors" : [
+              {
+                "name" : "Alexander M. Bronstein",
+                "_id" : "548f8fc8dabfaef989f09a19",
+                "org" : "Department of Computer Science, Technion – Israel Institute of Technology, Haifa, Israel",
+                "gid" : "5b86b270e1cd8e14a32d45b5",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              },
+              {
+                "name" : "Michael M. Bronstein",
+                "_id" : "53f7ce7ddabfae92b40e594c",
+                "org" : "Department of Computer Science, Technion – Israel Institute of Technology, Haifa, Israel",
+                "gid" : "5b86b270e1cd8e14a32d45b5",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              },
+              {
+                "name" : "Michael Zibulevsky",
+                "_id" : "53f47a6edabfaeb22f56d969",
+                "org" : "Department of Computer Science, Technion – Israel Institute of Technology, Haifa, Israel",
+                "gid" : "5b86b270e1cd8e14a32d45b5",
+                "orgid" : "5f71b28d1c455f439fe3ca3c"
+              }
+            ],
+            "volume" : "",
+            "isbn" : "3-540-32630-8",
+            "n_citation" : 4,
+            "lang" : "en",
+            "venue" : {
+              "_id" : "53a725fd20f7420be8b61fb6",
+              "type" : 0,
+              "raw" : "ICA",
+              "name_d" : "International Conference on Independent Component Analysis and Signal Separation"
+            },
+            "abstract" : "Presented here is the problem of recovering a dynamic image superimposed on a static background. Such a problem is ill-posed and may arise e.g. in imaging through semireflective media, in separation of an illumination image from a reflectance image, in imaging with diffraction phenomena, etc. In this work we study regularization of this problem in spirit of Total Variation and general sparsifying transformations.",
+            "issn" : "",
+            "pdf" : "//static.aminer.org/pdf/PDF/000/263/818/on_separation_of_semitransparent_dynamic_images_from_static_background.pdf",
+            "keywords" : [
+              "reflectance image",
+              "semitransparent dynamic image",
+              "diffraction phenomenon",
+              "static background",
+              "general sparsifying transformation",
+              "semireflective media",
+              "illumination image",
+              "total variation",
+              "dynamic image"
+            ],
+            "page_end" : "940",
+            "year" : 2006,
+            "_id" : "53e9add4b7602d97037de67d",
+            "fos" : [
+              "Signal processing",
+              "Computer vision",
+              "Blind deconvolution",
+              "Computer science",
+              "Regularization (mathematics)",
+              "Artificial intelligence",
+              "Independent component analysis",
+              "Image restoration",
+              "Luminance",
+              "Blind signal separation",
+              "Principal component analysis"
+            ],
+            "page_start" : "934",
+            "url" : [
+              "http://dx.doi.org/10.1007/11679363_116"
+            ],
+            "references" : [
+              "53e9add5b7602d97037dfdd6",
+              "53e99af2b7602d970237d04a",
+              "53e9b577b7602d97040b7782",
+              "558a657b84ae84d265bd5c7f",
+              "53e9b60db7602d97041620dd"
+            ],
+            "issue" : ""
+          },
+          "@version" : "1",
+          "@timestamp" : "2022-05-26T08:17:06.054Z"
+        }
+      }
+      ]
