@@ -1,13 +1,31 @@
 <template>
   <div class="common-layout">
-    <el-container>
+    <el-container style="width: 90%; margin: auto">
       <el-header class="flex-center">
         <HeadSearch class="head-search"></HeadSearch>
       </el-header>
       <el-container class="container">
-        <el-aside width="45%">
+        <el-aside width="50%">
+          <el-row>
+            <el-button type="info">Author</el-button>
+            <el-button type="info">Paper</el-button>
+          </el-row>
+          <el-divider></el-divider>
+          <el-row style="margin-top: 10px; margin-bottom: 10px">
+            <el-button type="info">Relavance</el-button>
+            <el-button type="info">H-indexs</el-button>
+            <el-button type="info">Papers</el-button>
+            <el-button type="info">Activity</el-button>
+            <el-button type="info">Citation</el-button>
+            <el-button type="info">Rising star</el-button>
+          </el-row>
           <el-scrollbar ref="scrollbar" :style="scrollbarStyle">
-            <Profile v-for="item in 20" :key="item" class="scrollbar-demo-item">{{ item }}</Profile>
+            <Profile
+              v-for="item in 20"
+              :key="item"
+              class="scrollbar-demo-item"
+              >{{ item }}</Profile
+            >
           </el-scrollbar>
         </el-aside>
         <el-main>Main</el-main>
@@ -82,5 +100,11 @@ header {
 
 .container {
   margin-top: 25px;
+}
+.main-container {
+}
+.el-divider--horizontal {
+  margin: 10px 0;
+
 }
 </style>

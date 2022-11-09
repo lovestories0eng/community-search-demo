@@ -1,6 +1,5 @@
 <template>
   <div class="header-search show">
-    <SvgIcon class="search-icon" name="search" />
     <el-select
       ref="headerSearchSelect"
       v-model="search"
@@ -8,7 +7,7 @@
       filterable
       default-first-option
       remote
-      placeholder="Search"
+      placeholder="searching experts，papers，keywords"
       class="header-search-select"
       @change="change"
     >
@@ -20,6 +19,7 @@
         :label="searcherLabel(item)"
       />
     </el-select>
+    <SvgIcon class="search-icon" style="padding-left: 20px" name="search" />
   </div>
 </template>
 

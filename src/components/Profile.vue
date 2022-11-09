@@ -1,31 +1,83 @@
 <template>
-  <el-row>
+  <!-- <el-row>
     <el-col
       v-for="(o, index) in 2"
       :key="o"
       :span="8"
       :offset="index > 0 ? 2 : 0"
-    >
-      <el-card :body-style="{ padding: '0px' }">
-        <img
+    > -->
+  <el-card style="margin-bottom: 20px">
+    <el-row :gutter="20">
+      <el-col :span="6">
+        <!-- <img
           src="https://shadow.elemecdn.com/app/element/hamburger.9cf7b091-55e9-11e9-a976-7f4d0b07eef6.png"
           class="image"
           alt=""
-        />
-        <div style="padding: 14px">
-          <span>Yummy hamburger</span>
-          <div class="bottom">
-            <time class="time">{{ currentDate }}</time>
-            <el-button text class="button">Operating</el-button>
-          </div>
+        /> -->
+        <SvgIcon class="icon-background-style" name="peopleBackground" />
+      </el-col>
+      <el-col :span="18" style="padding: 14px">
+        <el-row :gutter="20">
+          <el-col :span="20">
+            <span>Wangmeng Zuo</span>
+          </el-col>
+          <el-col :span="4">
+            <el-button text class="button">Follow</el-button>
+          </el-col>
+        </el-row>
+        <el-row :gutter="20" style="font-size: 14px">
+          <el-col :span="8">
+            <span>H-index:</span>
+          </el-col>
+          <el-col :span="8">
+            <span>Paper:</span>
+          </el-col>
+          <el-col :span="8">
+            <span>Citation:</span>
+          </el-col>
+        </el-row>
+        <div style="font-size: 12px">
+          <el-row :gutter="20" style="margin-top: 10px">
+            <el-col :span="2">
+              <SvgIcon class="icon-style" name="professor" />
+            </el-col>
+            <el-col :span="20">
+              <span>Professor</span>
+            </el-col>
+          </el-row>
+          <el-row :gutter="20" style="margin-top: 10px">
+            <el-col :span="2">
+              <SvgIcon class="icon-style" name="school" />
+            </el-col>
+            <el-col :span="20">
+              <span
+                >School of Computer Science and Technology.Harbin Institute of
+                Technology</span
+              >
+            </el-col>
+          </el-row>
+          <el-row :gutter="20" style="margin-top: 10px">
+            <el-col :span="2">
+              <SvgIcon class="icon-style" name="research" />
+            </el-col>
+            <el-col :span="20">
+              <span
+                >Search area:RecognitionFeature ExtractionImage
+                RestorationImage</span
+              >
+            </el-col>
+          </el-row>
         </div>
-      </el-card>
-    </el-col>
-  </el-row>
+      </el-col>
+    </el-row>
+  </el-card>
+  <!-- </el-col>
+  </el-row> -->
 </template>
 
 <script setup lang="ts">
 import { ref } from "vue";
+import SvgIcon from "@/icon/SvgIcon.vue";
 
 defineProps<{
   name: string;
@@ -47,14 +99,6 @@ const currentDate = ref(new Date());
   color: #999;
 }
 
-.bottom {
-  margin-top: 13px;
-  line-height: 12px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .button {
   padding: 0;
   min-height: auto;
@@ -62,6 +106,19 @@ const currentDate = ref(new Date());
 
 .image {
   width: 100%;
+  display: block;
+}
+.icon-style {
+  cursor: pointer;
+  font-size: 18px;
+  vertical-align: middle;
+}
+.icon-background-style {
+  cursor: pointer;
+  font-size: 50px;
+  vertical-align: middle;
+  width: 100%;
+  height:100%;
   display: block;
 }
 </style>
